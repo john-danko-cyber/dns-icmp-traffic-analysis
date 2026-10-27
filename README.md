@@ -1,5 +1,11 @@
 # DNS and ICMP Network Traffic Analysis
 
+## Summary
+A guided course lab in which I analyzed a provided scenario and tcpdump log from an IT services company. Customers could not reach www.yummyrecipesforme.com. The log showed DNS lookups from 192.51.100.15 to the DNS server at 203.0.113.2 failing every time with an ICMP "udp port 53 unreachable" response, which means DNS resolution for the site was failing. The write-up covers the findings, the TCP/IP layers involved, and likely causes.
+
+## My Role
+I analyzed the provided scenario and tcpdump log data, interpreted the DNS and ICMP traffic, and wrote the incident report. The scenario and the log were provided by the course lab.
+
 ## Project Overview
 
 This project documents a guided lab from the Google Cybersecurity Certificate, "Analyze network protocol and network traffic." The lab provides a scenario and a tcpdump log captured by a cybersecurity analyst at an IT services company. I reviewed the scenario, analyzed the DNS and ICMP traffic in the log, and wrote an incident report explaining why customers could not reach a client's website.
@@ -78,3 +84,8 @@ The blank template used for the report.
 This is a guided lab completed as part of the Google Cybersecurity Certificate. The company, website, and IP addresses are part of a training scenario, not a real production environment.
 
 This project is based on a scenario from the Google Cybersecurity Professional Certificate (Coursera). The write-up and analysis are my own.
+
+## Evidence
+- [Incident Report](incident-report.md)
+- [tcpdump Log](tcpdump-log.txt)
+- [Report Template (image)](images/report-template.png)
